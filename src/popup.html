@@ -1,0 +1,88 @@
+<html>
+<head>
+  <title>Quick Index for Apple Documentation</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #333;
+    font-size: 13px;
+    font-family: Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  .item {
+    padding-left: 20px;
+  }
+
+  .border-w {
+    border-left: 1px solid #d9d9d9;
+  }
+
+  .border-n {
+    border-top: 1px solid #d9d9d9;
+  }
+  .border-ns {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .fill {
+    flex-grow: 1;
+  }
+
+  .label {
+    padding: 8px 5px;
+  }
+
+  .control {
+    padding: 8px 12px;
+  }
+
+  .clickable {
+    cursor: pointer;
+  }
+
+  .clickable:hover {
+    background-color: #e8eaed;
+    cursor: pointer;
+  }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <div class="row item">
+      <div class="label fill">Enabled</div>
+      <div class="row border-w">
+        <div class="control">
+          <input id="enabled" class="clickable" type="checkbox" name="enabled"/>
+        </div>
+      </div>
+    </div>
+    <div class="row item border-ns">
+      <div class="label fill">Initial Width</div>
+      <div class="row border-w">
+        <div id="width-sub" class="control clickable">-</div>
+        <div id="width" class="label">100%</div>
+        <div id="width-add" class="control clickable">+</div>
+      </div>
+    </div>
+    <div class="row item clickable">
+      <div id="about" class="label">About</div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
