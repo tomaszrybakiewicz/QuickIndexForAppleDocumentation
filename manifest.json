@@ -1,7 +1,7 @@
 {
   "name": "Quick Index for Apple Documentation",
   "version": "1.0",
-  "description": "Adds a floating panel with a table of contents to developer.apple.com/documentation/ pages.",
+  "description": "Additional navigation panel for https://developer.apple.com/documentation pages.",
   "author": "Tomasz Rybakiewicz",
   "manifest_version": 2,
   "permissions": [

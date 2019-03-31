@@ -43,4 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   cb_enabled.addEventListener('change', save_options);
+
+  document.getElementById("about").addEventListener('click', function() {
+    window.open("https://github.com/tomaszrybakiewicz/QuickIndexForAppleDocumentation");
+  });
 });
