@@ -4,7 +4,7 @@
 
 Quick Index is a Google Chrome extension that injects an additional navigation panel to https://developer.apple.com/documentation pages.
 
-![Screenshot 1](/wiki/s1.png)
+![Screenshot 1](/publish/s1.png)
 
 ### Why?
 
